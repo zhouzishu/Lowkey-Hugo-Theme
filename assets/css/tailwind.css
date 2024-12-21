@@ -231,7 +231,7 @@
   nav a.active {
     @apply text-gray-900 dark:text-gray-100;
   }
-  
+
   /* Content overrides */
   #content {
     @apply leading-normal;
@@ -372,5 +372,9 @@
 
   .title-small {
     @apply text-2xl font-extrabold text-gray-900 dark:text-gray-300;
+  }
+
+  .awards ul li {
+    @apply mb-2 !important;
   }
 }
